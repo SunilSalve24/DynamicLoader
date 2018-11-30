@@ -1,0 +1,12 @@
+[
+    {
+        "componetPath": "demo-content",
+        "componentName" : "DemoContentComponent"    
+    },
+    {
+        "componetPath": "demo-secound",
+        "componentName" : "DemoSecoundComponent"    
+    }
+
+
+]

@@ -1,0 +1,19 @@
+<div class="sideNav">
+    <mat-nav-list>
+		<mat-list-item (click)="loadComponent(i)"  *ngFor="let i of componentList">
+			<div mat-line>
+				{{ i.name }}
+			</div>
+		</mat-list-item>
+	</mat-nav-list>
+</div>
+
+<ng-template appComponetLoder></ng-template> 
+
+<div class="propertyModifySections" *ngIf="propertyArray">
+	<mat-list-item *ngFor="let prop of propertyArray">
+		<div mat-line>
+			<input matInput placeholder="{{prop.name}}" value="" (change)="valuechange(prop.name, $event.target.value)">			
+		</div>
+	</mat-list-item>
+</div>

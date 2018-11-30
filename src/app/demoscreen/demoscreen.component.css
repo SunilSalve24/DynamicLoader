@@ -1,0 +1,13 @@
+:host{
+    font-family: Roboto,"Helvetica Neue",sans-serif;
+    font-size: 14px;
+    display: flex;
+}
+.property-list{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.property-list .row{
+    margin:5px 0
+}

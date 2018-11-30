@@ -1,0 +1,22 @@
+{
+    "Data": [{
+        "label": {
+            "name": "Label",
+            "type": "string",
+            "value": ""
+        }
+    }],
+    "Properties" : [{
+            "disabled": {
+                "name": "Disabled",
+                "type": "boolen",
+                "value": false
+            },
+              "label" : {
+                "name": "Placeholder",
+                "type": "string",
+                "value": ""
+            }
+        }
+    ]
+}

@@ -1,4 +1,11 @@
-import { Component } from '@angular/core';
+import { Component,NgModule, SystemJsNgModuleLoader, NgModuleFactory } from '@angular/core';
+
+import { appliCationComponentList } from './componentList';
+
+
+/**
+ * Pipecdd to convert to and from the YYYYMMDD (number) to the Javascript Date object
+ */
 
 @Component({
   selector: 'app-root',
@@ -6,5 +13,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-tour-of-heroes';
+
+
+ }
+
 }
